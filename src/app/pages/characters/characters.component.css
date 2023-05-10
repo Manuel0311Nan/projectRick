@@ -1,0 +1,9 @@
+.botonPosition{
+  position: sticky;
+  top: 500px;
+  bottom: 500px;
+  z-index: 99;
+}
+section{
+  background-color: #EFE6DD;
+  }

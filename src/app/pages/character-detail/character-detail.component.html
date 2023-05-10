@@ -1,0 +1,36 @@
+<section>
+<h1 class="text-center">
+  {{ character.name }} <br /><small
+    ><b> Origen: {{ character.origin.name }}</b>
+  </small>
+</h1>
+
+<div class="container">
+<hr />
+
+  <div
+    class="d-flex flex-column  justify-content-center align-items-center">
+    <div class="">
+      <img src="{{ character.image }}" alt="" />
+      <br />
+      <br />
+
+    </div>
+    <div class="">
+      <h3>
+        Género: <b>{{ character.gender }}</b>
+      </h3>
+      <h3>
+        Ciudad: <b> {{ character.location.name }}</b>
+      </h3>
+      <h3>
+        Especie: <b>{{ character.species }}</b>
+      </h3>
+      <h3>
+        Estatus: <b>{{ character.status }}</b>
+      </h3>
+    </div>
+  </div>
+  <a class="btn btn-dark" href="/characters"> Regresar</a>
+</div>
+</section>
